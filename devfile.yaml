@@ -26,5 +26,5 @@ attributes:
   .che/che-editor.yaml: |  
       id: che-incubator/che-code/insiders
 components:
-  theia:
-    type: vscode
+  - theia:
+      type: vscode
