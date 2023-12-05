@@ -1,10 +1,16 @@
 version: "3.0"
 components:
-  - theia:
-      type: vscode
+  theia:
+    type: vscode
+  java:
+    type: chePlugin
     attributes:
-      .vscode/extensions.json: |
-        [
-          "redhat.vscode-java",
-          "dbaeumer.vscode-eslint"
-        ]
+      name: redhat.vscode-java
+      marketplace: vscode
+      version: "^1.0.0"
+  eslint:
+    type: chePlugin
+    attributes:
+      name: dbaeumer.vscode-eslint
+      marketplace: vscode
+      version: "^4.0.0"
