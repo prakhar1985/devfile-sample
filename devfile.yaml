@@ -17,7 +17,7 @@ parent:
 attributes:
   .vscode/extensions.json: |
     { 
-    "recommendations": [
+    [
       "redhat.vscode-java",
       "redhat.fabric8-analytics",
       "dbaeumer.vscode-eslint"
