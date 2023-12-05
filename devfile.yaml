@@ -14,15 +14,17 @@ metadata:
 parent:
   id: nodejs
   registryUrl: "https://registry.devfile.io"
-attributes:
-  .vscode/extensions.json: |
-    { 
-    [
-      "redhat.vscode-java",
-      "redhat.fabric8-analytics",
-      "dbaeumer.vscode-eslint"
-    ]
-   }   
+attributes:  
+  .che/che-theia-plugins.yaml: |  
+    - id: redhat/java
+  .vscode/extensions.json: |  
+    {  
+      "recommendations": [  
+        "ms-vscode.vscode-github-pullrequest"  
+      ]  
+    }
+  .che/che-editor.yaml: |  
+      id: che-incubator/che-code/insiders
 components:
   - name: image-build
     image:
