@@ -20,7 +20,7 @@ attributes:
   .vscode/extensions.json: |  
     {  
       "recommendations": [  
-        "github.vscode-pull-request-github"
+        "redhat.fabric8-analytics"
       ]  
     }
   .che/che-editor.yaml: |  
