@@ -1,4 +1,10 @@
 schemaVersion: 2.2.0
+attributes:
+  .vscode/extensions.json: |
+    [
+      "redhat.vscode-java",
+      "dbaeumer.vscode-eslint"
+    ]
 metadata:
   name: nodejs
   version: 3.0.0
@@ -22,6 +28,7 @@ components:
         uri: Dockerfile
         buildContext: .
         rootRequired: false
+
   - name: kubernetes-deploy
     attributes:
       deployment/replicas: 1
