@@ -11,7 +11,8 @@ metadata:
    .vscode/extensions.json: |
      [
        "redhat.vscode-java",
-       "dbaeumer.vscode-eslint"
+       "dbaeumer.vscode-eslint",
+       "redhat.fabric8-analytics"
      ]
   attributes:
     alpha.dockerimage-port: 3001
