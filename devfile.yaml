@@ -20,7 +20,7 @@ attributes:
   .vscode/extensions.json: |  
     {  
       "recommendations": [  
-        "ms-vscode.vscode-github-pullrequest"  
+        "github.vscode-pull-request-github"
       ]  
     }
   .che/che-editor.yaml: |  
